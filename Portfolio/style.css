@@ -1,9 +1,107 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-} 
+}
+
+body {
+  background: linear-gradient(to bottom, #FCFCFC, #0082C8, #0082C8);
+  
+  padding: 20px;
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* Section Styling */
+section {
+  margin: 20px 0;
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Skills Cards */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  padding: 5px 0;
+  font-weight: 300;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer h2 {
+  font-weight: 600;
+}
+
+footer p {
+  margin-top: 10px;
+  font-weight: 300;
+}
